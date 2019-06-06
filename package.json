@@ -1,0 +1,14 @@
+{
+    "name": "node-api",
+    "main": "server.js",
+    "scripts": {
+        "start": "nodemon ./server.js"
+    },
+    "dependencies": {
+        "body-parser": "~1.0.1",
+        "express": "~4.0.0",
+        "lodash": "^4.17.11",
+        "mongodb": "~3.2.3",
+        "mongoose": "~5.5.3"
+    }
+}
